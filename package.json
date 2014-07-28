@@ -1,0 +1,25 @@
+{
+  "name": "greeter",
+  "displayName": "HipChat Greeter Example Add-on",
+  "description": "Greets people when they join a HipChat room",
+  "version": "0.1.0",
+  "author": {
+    "name": "Atlassian",
+    "url": "http://atlassian.com"
+  },
+  "license": "Apache 2.0",
+  "engines": {
+    "node": "~0.11.13"
+  },
+  "development": {
+    "port": 3000
+  },
+  "production": {
+    "localBaseUrl": "https://example.herokuapp.com",
+    "redisEnv": "OPENREDIS_URL",
+    "port": "$PORT"
+  },
+  "dependencies": {
+    "ac-koa-hipchat": "~0.0.1"
+  }
+}

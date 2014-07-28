@@ -11,6 +11,9 @@
   "engines": {
     "node": "~0.11.13"
   },
+  "scripts": {
+    "web": "node --harmony web.js"
+  },
   "development": {
     "port": 3000
   },

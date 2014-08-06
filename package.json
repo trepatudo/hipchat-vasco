@@ -18,11 +18,12 @@
     "port": 3000
   },
   "production": {
-    "localBaseUrl": "https://example.herokuapp.com",
-    "redisEnv": "OPENREDIS_URL",
+    "localBaseUrl": "https://ac-koa-hipchat-greeter.herokuapp.com",
+    "redisEnv": "REDISCLOUD_URL",
     "port": "$PORT"
   },
   "dependencies": {
-    "ac-koa-hipchat": "~0.0.1"
+    "ac-koa": "^0.1.4",
+    "ac-koa-hipchat": "^0.1.4"
   }
 }

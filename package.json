@@ -1,5 +1,5 @@
 {
-  "name": "greeter",
+  "name": "ac-koa-hipchat-greeter",
   "displayName": "HipChat Greeter Example Add-on",
   "description": "Greets people when they join a HipChat room",
   "version": "0.1.0",

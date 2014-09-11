@@ -7,7 +7,7 @@ var addon = app.addon()
   .allowRoom(true)
   .scopes('send_notification');
 
-addon.webhook('room_enter', function *() {
+addon.webhook('room_message', /^\/hello$/, function *() {
   yield this.roomClient.sendNotification('Hi, ' + this.sender.name + '!');
 });
 

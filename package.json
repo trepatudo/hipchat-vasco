@@ -1,6 +1,6 @@
 {
   "name": "ac-koa-hipchat-greeter",
-  "displayName": "HipChat Greeter Example Add-on",
+  "displayName": "Greeter",
   "description": "Greets people when they join a HipChat room",
   "version": "0.1.0",
   "author": {
@@ -25,7 +25,7 @@
     "port": "$PORT"
   },
   "dependencies": {
-    "ac-koa": "^0.2.3",
-    "ac-koa-hipchat": "^0.2.7"
+    "ac-koa": "^0.2.6",
+    "ac-koa-hipchat": "^0.2.14"
   }
 }

@@ -1,13 +1,12 @@
 {
-  "name": "ac-koa-hipchat-greeter",
-  "displayName": "Greeter",
-  "description": "Greets people when they join a HipChat room",
+  "name": "hipchat-vasco",
+  "displayName": "SB HipChat: Vasco joke",
+  "description": "Joke when Vasco is mentioned",
   "version": "0.1.0",
   "author": {
-    "name": "Atlassian",
-    "url": "http://atlassian.com"
+    "name": "Marco Silva",
+    "url": "http://marcosilva.pt"
   },
-  "license": "Apache 2.0",
   "engines": {
     "node": "~0.11.13"
   },
@@ -20,12 +19,11 @@
     "port": 3000
   },
   "production": {
-    "localBaseUrl": "https://ac-koa-hipchat-greeter.herokuapp.com",
     "redisEnv": "REDISCLOUD_URL",
     "port": "$PORT"
   },
   "dependencies": {
-    "ac-koa": "^0.2.6",
-    "ac-koa-hipchat": "^0.2.14"
+    "ac-koa": "^0.2.3",
+    "ac-koa-hipchat": "^0.2.4"
   }
 }
